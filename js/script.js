@@ -1,14 +1,19 @@
-//$(document).ready(function()  {
-  //$(".well h3").click(function() {
-    //$("#rules").fadeToggle();
-  //});
-//});
-
 $(document).ready(function() {
+
+  //hide my Game Rules first
   $('#rules').hide();
-  $('.well h3').show();
+
+  //show game rules onclick
   $('.well h3').click(function() {
-    $('#rules').fadeToggle(1000);
+    $('#rules').fadeToggle(100);
   });
-  
+
+  //hide the game section
+  $('#jumb').hide();
+
+  //show game section onclick
+  $('#game').click(function() {
+    $('#jumb').fadeToggle(100);
+    $('#tron').hide();
+  });
 });

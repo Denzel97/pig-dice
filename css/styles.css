@@ -28,6 +28,7 @@ body {
   cursor: pointer;
   font-family: Kaushan Script;
 }
+
 #rules>h4 {
   text-decoration: underline;
   font-family: Wendy One;
@@ -49,11 +50,29 @@ body {
   font-style: italic;
 }
 
+#game>strong {
+  text-decoration: underline;
+}
+
 #game>strong:hover {
   color: red;
   cursor: pointer;
 }
+
 .play>h4 {
   text-align: center;
   font-family: Permanent Marker;
+}
+.start>a {
+  font-family: Aclonica;
+  text-decoration: underline;
+  color: blue;
+  font-size: 150%;
+}
+.start>a:hover {
+  cursor: pointer;
+  font-style: italic;
+}
+#p1,#p,#p2 {
+  border-radius: 2px 3px;
 }

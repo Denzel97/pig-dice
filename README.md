@@ -1,23 +1,17 @@
-# {JAVASCRIPT QUIZ-BOARD}
-#### {By DENZEL OUMA}
+# PIG-DICE
+#### Author
+* Denzel Ouma
 ## Description
-* ![Image](https://github.com/Denzel97/pig-dice/blob/master/images/pig-emoji-collection-1-008.jpg)
-* Quiz-Board is a web app that allows anyone to attempt a few questions to test their JavaScript knowledge.  Each question has 1 mark allocated to every right answer you get
+![Image](https://github.com/Denzel97/pig-dice/blob/master/images/pig-emoji-collection-1-008.jpg)
+* Pig is considered a jeopardy game, where you risk everything to see if you can win more. The numbers on the die (except for "1") each represent points that can accumulate—the winner is the first player to reach 100 or more points.
 ## Setup/Installation Requirements
 * git must be installed in your computer, if not use the following command in your terminal ($ sudo apt install git-all)
 * Then open another page on terminal
-* Use this command ($ git clone https://denzel97.github.io/Quiz_Board/)
+* Use this command ($ git clone https://denzel97.github.io/pig-dice/)
 * This will clone the repository to your local folder
 
 ## BDD
-| Behaviour     | Input           | Output |
-| :------------ |:---------------:| -----:|
-| User does not answer any question | 0,0,0,0,0 | Your final score is: 0 out of 5 |
-| User answers only one question correctly | 1,0,0,0,0 | Your final score is: 1 out of 5 |
-| User answers two questions correctly | 2,4,0,0,0     |  Your final score is: 2 out of 5 |
-| User answers three questions correctly |  2,3,4,0,0 | Your final score is: 3 out of 5 |
-| User answers four questions correctly | 2,1,3,4,0 | Your final score is: 4 out of 5 |
-| User answers all the five questions correctly | 3,1,4,2,1 | Your final score is: 5 out of 5 |
+
 
 
 ## Known Bugs
