@@ -17,3 +17,13 @@ $(document).ready(function() {
     $('#tron').hide();
   });
 });
+
+function roll() {
+  var rol = (Math.ceil(Math.random() * 6));
+  $('#score').html(rol);
+}
+
+$('#roll').click(function() {
+  roll();
+
+});

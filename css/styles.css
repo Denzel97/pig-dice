@@ -63,16 +63,29 @@ body {
   text-align: center;
   font-family: Permanent Marker;
 }
+
 .start>a {
   font-family: Aclonica;
   text-decoration: underline;
   color: blue;
   font-size: 150%;
 }
+
 .start>a:hover {
   cursor: pointer;
   font-style: italic;
 }
-#p1,#p,#p2 {
-  border-radius: 2px 3px;
+
+#P1 {
+  text-align: center;
+  background-color: yellow;
+}
+
+#P2 {
+  text-align: center;
+  background-color: red;
+}
+
+#P {
+  text-align: center;
 }
