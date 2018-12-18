@@ -1,14 +1,59 @@
 .container>h1 {
   text-align: center;
-  font-family: monoton;
-  text-shadow: 2px 2px blue;
+  font-family: Fredericka the Great;
   font-size: 350%;
+  text-decoration: underline;
+  color: red;
 }
+
 body {
-  background-image: url('../images/animated-dice-image-0104.gif');
+  background-color: black;
+  background-image: url('../images/pig-emoji-collection-1-008.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.well {
+  opacity: 0.88;
+}
+
+.well>h3 {
+  text-align: center;
+  font-family: Permanent Marker;
+  text-decoration: underline;
+}
+
+.well>h3:hover {
+  color: red;
+  cursor: pointer;
+  font-family: Kaushan Script;
+}
+#rules>h4 {
+  text-decoration: underline;
+  font-family: Wendy One;
+}
+
 .jumbotron {
   opacity: 0.88;
+}
+
+.jumbotron>h2 {
+  text-align: center;
+  font-family: Permanent Marker;
+  text-decoration: underline;
+  color: blue;
+}
+
+.jumbotron>p {
+  font-family: Merienda One;
+  font-style: italic;
+}
+
+#game>strong:hover {
+  color: red;
+  cursor: pointer;
+}
+.play>h4 {
+  text-align: center;
+  font-family: Permanent Marker;
 }

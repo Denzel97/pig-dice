@@ -1,26 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="images/pig-emoji-collection-1-008.jpg">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Aclonica|Fredericka+the+Great|Kaushan+Script|Knewave|Merienda+One|Nosifer|Permanent+Marker|Sigmar+One|Wendy+One|Yeseva+One" rel="stylesheet">
+  <title>Pig Dice</title>
 </head>
 
 <body>
   <div class="container">
     <h1>PIG DICE</h1>
-    <div class="jumbotron">
+    <div class="well">
 
+      <h3>Game Rules</h3>
+      <div id="rules">
+        <h4>How Many Players</h4>
+        <p>The game of Pig is best with two players, but it can work with more people. Just keep in mind that the downtime between turns grows longer with each additional player, which could be challenging for the little ones. </p>
+        <h4>How to Play</h4>
+        <p>On a turn, a player rolls the die repeatedly. The goal is to accumulate as many points as possible, adding up the numbers rolled on the die. However, if a player rolls a 1, the player's turn is over and any points they have accumulated
+          during this turn are forfeited. Rolling a 1 doesn't wipe out your entire score from previous turns, just the total earned during that particular roll.<br>
+          A player can also choose to hold (stop rolling the die) if they do not want to take a chance of rolling a 1 and losing all of their points from this turn. If the player chooses to hold, all of the points rolled during that turn are added
+          to his or her score.<br>
+          When a player reaches a total of 100 or more points, the game ends and that player is the winner.</p>
+      </div>
 
     </div>
+    <div class="jumbotron">
+      <h2>Game On</h2>
+      <p>Pig is considered a jeopardy game, where you risk everything to see if you can win more. The numbers on the die (except for "1") each represent points that can accumulate—the winner is the first player to reach 100 or more points.<p><br>
+      <p id="game"><strong>Lets Play</strong></p>
+
+      <div class="play">
+        <h4>Game On</h4>
+        <div class="row">
+          <div class="col-md-4" id="P1">
+            <h3>Player 1</h3>
+            <h2>0</h2>
+
+          </div>
+          <div class="col-md-2" id="P">
+            <h4>Playing</h4>
+            <button type="button" name="button">Roll</button>
+            <button type="button" name="button">Hold</button>
+          </div>
+
+          <div class="col-md-4" id="P2">
+            <h3>Player 2</h3>
+            <h2>0</h2>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
   </div>
 
   <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/javaScript.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
+
 </html>
