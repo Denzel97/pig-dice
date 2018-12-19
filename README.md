@@ -14,7 +14,7 @@
 
 ## BDD
 | Behaviour | Input | Output |
-| ;-----; | ;-----; | ;-----; |
+| :-----: | :-----: | :-----: |
 | User is able to access the game rules | click on game rules | the rules are viewed right under the game rules |
 | user is able to access the pig game | click on lets play | both the rules and the content about the game are hidden and the game is displayed |
 ## Known Bugs
